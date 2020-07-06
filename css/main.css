@@ -129,11 +129,24 @@ img{
   max-width: 80%;
 }
 
+#top-nav-xs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#top-nav-xs a{
+  color: #000;
+}
+
 @media all and (max-width: 1200px) {
   #jumbo{
     flex-wrap: wrap;
   }
   .number{
     display: none
+  }
+  #top-nav,#top-nav div,#top-nav h1{
+    display: none;
   }
 }
