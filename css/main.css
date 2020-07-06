@@ -158,6 +158,10 @@ img{
   padding: 0 2%;
 }
 
+.hamburger-dropdown #top-dropdown a{
+  margin-right: 10px;
+}
+
 .item{
   margin: 30px;
 }
@@ -165,6 +169,10 @@ img{
 .item ul {
   list-style: none;
   display: none;
+}
+
+.item ul li{
+  margin: 10px 0;
 }
 
 #top-nav-xs #top-dropdown .item ul li a{
@@ -175,6 +183,12 @@ img{
   text-align: right;
   padding: 20px;
   font-size: 35px;
+}
+
+.bar{
+  border-bottom: solid 1px;
+  width: 95%;
+  margin: auto;
 }
 
 @media all and (max-width: 1200px) {
