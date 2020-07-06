@@ -98,6 +98,7 @@ header .container{
 
 #fondi{
   width: 40%;
+  min-width:480px;
 }
 
 #fondi h2{
@@ -126,4 +127,13 @@ header .container{
 
 img{
   max-width: 80%;
+}
+
+@media all and (max-width: 1200px) {
+  #jumbo{
+    flex-wrap: wrap;
+  }
+  .number{
+    display: none
+  }
 }
