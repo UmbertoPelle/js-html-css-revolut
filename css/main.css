@@ -92,6 +92,8 @@ header .container{
 #jumbo{
   display: flex;
   padding-top: 40px;
+  justify-content: center;
+  align-items:center;
 }
 
 #fondi{
@@ -116,4 +118,12 @@ header .container{
   border-bottom: solid 1px;
   margin: 0px 20px;
   font-size: 25px;
+}
+
+#img-jumbo{
+  width: 50%;
+}
+
+img{
+  max-width: 80%;
 }
