@@ -110,7 +110,7 @@ header .container{
 
 #fondi{
   width: 40%;
-  min-width:480px;
+  min-width:470px;
 }
 
 #fondi h2{
@@ -138,7 +138,7 @@ header .container{
 }
 
 img{
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .number{
@@ -207,6 +207,10 @@ img{
   font-size: 35px;
 }
 
+h3:hover{
+  cursor: pointer;
+}
+
 /* bunner position bottom */
 .bunner{
   display: none;
@@ -223,6 +227,10 @@ img{
 @media all and (max-width: 1200px) {
   #jumbo{
     flex-wrap: wrap;
+  }
+
+  header{
+    display: none;
   }
 
   .number{
@@ -245,5 +253,19 @@ img{
 
   #fondi>i, #fondi> strong{
     display: none
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  #fondi{
+    min-width: 400px;
+  }
+}
+
+@media all and (max-width: 410px) {
+  #fondi{
+    min-width: 300px;
   }
 }

@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
   $(".hamburger-dropdown-parent").click(function(){
-    $(".hamburger-dropdown").show();
+    $(".hamburger-dropdown").slideDown();
   });
 
   $(".hamburger-dropdown .item h3").click(function(){
@@ -32,4 +32,5 @@ $(document).ready(function() {
     $(".hamburger-dropdown .item ul li").css("text-decoration","none");
     $(this).css("text-decoration","underline","color","black");
   });
+
 });
