@@ -14,7 +14,14 @@ $(document).ready(function() {
 
   $(".hamburger-dropdown .item h3").click(function(){
     $(".hamburger-dropdown .item ul").slideUp()
-    $(this).next().slideToggle();
+    if ($(this).hasClass("open")) {
+      $(".hamburger-dropdown .item ul").slideUp()
+      $(".hamburger-dropdown .item h3").removeClass("open")
+    } else {
+      $(this).next().slideToggle();
+      $(this).addClass("open")
+    }
+
   });
 
   $(".hamburger-dropdown .close").click(function(){
@@ -22,7 +29,7 @@ $(document).ready(function() {
   });
 
   $(".hamburger-dropdown .item ul li").click(function () {
-    $(".hamburger-dropdown .item ul li").css("text-decoration","none")
+    $(".hamburger-dropdown .item ul li").css("text-decoration","none");
     $(this).css("text-decoration","underline","color","black");
   });
 });

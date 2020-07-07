@@ -208,6 +208,8 @@ img{
   padding: 10px;
 }
 
+.open{}
+
 @media all and (max-width: 1200px) {
   #jumbo{
     flex-wrap: wrap;
