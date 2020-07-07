@@ -14,7 +14,7 @@ $(document).ready(function() {
 
   $(".hamburger-dropdown .item h3").click(function(){
     $(".hamburger-dropdown .item ul").slideUp()
-    $(this).next().slideToggle();
+    $(this).next().slideToggle();    
   });
 
   $(".hamburger-dropdown .close").click(function(){

@@ -191,6 +191,19 @@ img{
   margin: auto;
 }
 
+.bunner{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  border-top: solid 1px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+
 @media all and (max-width: 1200px) {
   #jumbo{
     flex-wrap: wrap;
@@ -205,5 +218,8 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .bunner{
+    display: block;
   }
 }
