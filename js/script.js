@@ -14,10 +14,15 @@ $(document).ready(function() {
 
   $(".hamburger-dropdown .item h3").click(function(){
     $(".hamburger-dropdown .item ul").slideUp()
-    $(this).next().slideToggle();    
+    $(this).next().slideToggle();
   });
 
   $(".hamburger-dropdown .close").click(function(){
     $(".hamburger-dropdown").slideUp();
+  });
+
+  $(".hamburger-dropdown .item ul li").click(function () {
+    $(".hamburger-dropdown .item ul li").css("text-decoration","none")
+    $(this).css("text-decoration","underline","color","black");
   });
 });

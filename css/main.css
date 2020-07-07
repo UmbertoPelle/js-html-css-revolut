@@ -133,9 +133,10 @@ img{
   display: none;
 }
 
-#top-nav-xs i{
+.fa-bars{
   color: #000;
 }
+
 .hamburger-dropdown-parent{
   position: relative;
 }
@@ -164,6 +165,10 @@ img{
 
 .item{
   margin: 30px;
+}
+
+.item h3, .item h3 i{
+  color: #000;
 }
 
 .item ul {
@@ -202,7 +207,6 @@ img{
   background-color: #fff;
   padding: 10px;
 }
-
 
 @media all and (max-width: 1200px) {
   #jumbo{
