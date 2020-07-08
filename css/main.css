@@ -15,7 +15,7 @@ a:hover{
   color: black;
 }
 
-strong{
+strong , .fa-bars , .item h3, .item h3 i{
   color: #000;
 }
 
@@ -162,10 +162,6 @@ img{
   display: none;
 }
 
-.fa-bars{
-  color: #000;
-}
-
 .hamburger-dropdown-parent{
   position: relative;
 }
@@ -194,10 +190,6 @@ img{
 
 .item{
   margin: 30px;
-}
-
-.item h3, .item h3 i{
-  color: #000;
 }
 
 .item ul {
