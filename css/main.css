@@ -206,6 +206,12 @@ img{
 
 .item ul li{
   margin: 10px 0;
+  color: #a49c9c;
+}
+
+.item .absolute{
+  right:0;
+  left: 40px;
 }
 
 #top-nav-xs #top-dropdown .item ul li a{
