@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  // hover mouse
   $("#top-nav .drop-down").mouseenter(function(){
     $(".drop-down-content").hide();
     $(this).children(".drop-down-content").toggle();
@@ -8,10 +9,12 @@ $(document).ready(function() {
     $(".drop-down-content").hide();
   });
 
+  // apertura hamburger
   $(".hamburger-dropdown-parent").click(function(){
     $(".hamburger-dropdown").slideDown();
   });
 
+  // apertura liste
   $(".hamburger-dropdown .item h3").click(function(){
     $(".hamburger-dropdown .item ul").slideUp()
     if ($(this).hasClass("open")) {
@@ -24,10 +27,12 @@ $(document).ready(function() {
 
   });
 
+  // chiusura hamburger menu
   $(".hamburger-dropdown .close").click(function(){
     $(".hamburger-dropdown").slideUp();
   });
 
+  // css lista
   $(".hamburger-dropdown .item ul li").click(function () {
     $(".hamburger-dropdown .item ul li").css("text-decoration","none");
     $(this).css("text-decoration","underline","color","black");

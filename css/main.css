@@ -157,6 +157,12 @@ img{
   margin-bottom: 20px;
 }
 
+#laTuaVita{
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
 /* nav bar in mobile */
 #top-nav-xs{
   display: none;
@@ -271,6 +277,10 @@ h3:hover{
 
   #fondi{
     min-width: 400px;
+  }
+
+  #laTuaVita{
+    font-size: 20px;
   }
 }
 
