@@ -122,7 +122,7 @@ header .container{
 
 #fondi{
   width: 40%;
-  min-width:470px;
+  min-width:478px;
 }
 
 #fondi h2{
@@ -276,7 +276,7 @@ h3:hover{
   }
 
   #fondi{
-    min-width: 400px;
+    min-width: 300px;
   }
 
   #laTuaVita{
